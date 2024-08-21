@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Start Quiz</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+        </ul>
+    </nav>
+
+    <div id="leaderboard-page">
+        <h1>Leaderboard</h1>
+        <ul id="leaderboard-list">
+            <!-- Example leaderboard entries -->
+            <li>
+                <span class="rank">1</span>
+                <span class="username">Alice</span>
+                <span class="score">100</span>
+            </li>
+            <li>
+                <span class="rank">2</span>
+                <span class="username">Bob</span>
+                <span class="score">85</span>
+            </li>
+            <li>
+                <span class="rank">3</span>
+                <span class="username">Charlie</span>
+                <span class="score">75</span>
+            </li>
+            <!-- More entries will be dynamically added by JavaScript -->
+        </ul>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+
+    <script src="leaderboard.js"></script>
+</body>
+</html>
